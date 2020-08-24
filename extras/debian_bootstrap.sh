@@ -46,9 +46,9 @@ git clone https://github.com/TheoKlein/yeti.git
 
 # Install requirements
 cd /opt/yeti
-pip3 install -U pip
-pip3 install -r requirements.txt
-pip3 install uwsgi
+python3 -m pip install -U pip
+python3 -m pip install -r requirements.txt
+python3 -m pip install uwsgi
 yarn install
 
 # Configure services
